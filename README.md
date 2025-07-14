@@ -2,7 +2,7 @@
 
 A sleek, responsive music player built with **HTML, CSS, and JavaScript**. Perfect for playing your favorite tunes with intuitive controls!  
 
-![Music Player Screenshot](SS.jpg) *(Replace with your actual screenshot path)*  
+![Music Player Screenshot](SS.jpg)   
 
 ## 🎯 Features  
 - **Play/Pause** – Simple playback controls  
