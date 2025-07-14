@@ -1,0 +1,47 @@
+/* ===== PARTICLES.JS CONTAINER ===== */
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: transparent;
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+/* ===== PARTICLE STYLES ===== */
+.particles-js-canvas-el {
+  /* This helps with performance on mobile devices */
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+/* ===== DARK MODE ADJUSTMENTS ===== */
+.dark-mode #particles-js {
+  opacity: 0.5;
+}
+
+/* ===== PARTICLE ANIMATION EFFECTS ===== */
+/* This creates a subtle pulse effect on the particles */
+@keyframes particle-pulse {
+  0%, 100% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* ===== RESPONSIVE ADJUSTMENTS ===== */
+@media (max-width: 768px) {
+  #particles-js {
+    /* Reduce particle density on mobile for better performance */
+    opacity: 0.4;
+  }
+  
+  .dark-mode #particles-js {
+    opacity: 0.3;
+  }
+}
