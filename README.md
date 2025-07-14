@@ -29,7 +29,7 @@ Replace music: Add MP3 files to /assets/songs and update metadata in js/script.j
 Change styling: Modify colors/fonts in css/style.css.
 
 🌟 Live Demo
-🔗 Try it here! 
+🔗 https://ayesha-emaan.github.io/Music-Player-Website/
 
 📝 License
 MIT © Ayesha Emaan
